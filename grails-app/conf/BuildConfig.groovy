@@ -1,14 +1,13 @@
 grails.project.dependency.resolution = {
     inherits("global")
+
     log "warn" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
+
     repositories {
-        grailsPlugins()
-        grailsHome()
         grailsCentral()
         mavenCentral()
-        grailsRepo "http://grails.org/plugins"
-
     }
+
     dependencies {
         //for the release plugin..
         build "org.apache.httpcomponents:httpclient:4.0.3"
@@ -19,6 +18,7 @@ grails.project.dependency.resolution = {
         // See documentation about Grails 2.2: http://grails.org/plugin/spock
         test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
     }
+
     plugins {
         build ":release:2.0.4"
 
