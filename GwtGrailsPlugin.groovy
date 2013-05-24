@@ -19,7 +19,8 @@ import org.codehaus.groovy.grails.plugins.gwt.DefaultGwtServiceInterfaceGenerato
 import org.codehaus.groovy.grails.web.plugins.support.WebMetaUtils
 
 class GwtGrailsPlugin {
-    def version = "0.8-ais-SNAPSHOT"
+    def groupId = "cern.ais"
+    def version = "0.9-SNAPSHOT"
     def grailsVersion = "2.2 > *"
     def title = "The Google Web Toolkit for Grails."
     def description = """\
