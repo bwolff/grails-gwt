@@ -11,7 +11,9 @@ grails.project.dependency.resolution = {
     dependencies {
         // We need to replace the spock 0.6 version that comes with the GWT plugin. Otherwise the tests fail with a compilation error.
         // See documentation about Grails 2.2: http://grails.org/plugin/spock
-        test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
+        test("org.spockframework:spock-grails-support:0.7-groovy-2.0") {
+            export = false
+        }
     }
 
     plugins {
