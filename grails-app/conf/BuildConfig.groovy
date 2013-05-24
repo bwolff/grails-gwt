@@ -9,9 +9,6 @@ grails.project.dependency.resolution = {
     }
 
     dependencies {
-        //for the release plugin..
-        build "org.apache.httpcomponents:httpclient:4.0.3"
-        build "org.apache.ivy:ivy:2.2.0"
         build "org.grails.plugins:resources:1.2.RC2"
 
         // We need to replace the spock 0.6 version that comes with the GWT plugin. Otherwise the tests fail with a compilation error.
@@ -20,7 +17,7 @@ grails.project.dependency.resolution = {
     }
 
     plugins {
-        build ":release:2.0.4"
+        build ":release:2.2.1"
 
         // We need to replace the spock 0.6 version that comes with the GWT plugin. Otherwise the tests fail with a compilation error.
         // See documentation about Grails 2.2: http://grails.org/plugin/spock
