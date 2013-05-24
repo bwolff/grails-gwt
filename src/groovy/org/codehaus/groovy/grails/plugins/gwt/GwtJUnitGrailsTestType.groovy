@@ -185,7 +185,7 @@ return suite;
         }
         buildBinding.ant.junit(junitOptions) {
             if (buildBinding.buildConfig.gwt.test.args) {
-                def c = buildBinding.buildConfig.gwt.run.args.clone()
+                def c = buildBinding.buildConfig.gwt.test.args.clone()
                 c.delegate = delegate
                 c()
             }
