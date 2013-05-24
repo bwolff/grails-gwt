@@ -5,6 +5,8 @@ grails.project.dependency.resolution = {
 
     repositories {
         grailsCentral()
+        
+        mavenRepo "https://aistools.cern.ch/nexus/content/groups/public/"
         mavenCentral()
     }
 
