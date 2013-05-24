@@ -31,9 +31,13 @@ requests.
     def issueManagement = [ system: "JIRA", url: "http://jira.grails.org/browse/GPGWT" ]
     def documentation = "http://dawsonsystems.github.com/grails-gwt/guide/"
     def scm = [url:"https://github.com/dawsonsystems/grails-gwt"]
-	
     def license = "APACHE"
-	
+
+    def pluginExcludes = [
+            "grails-app/views/**",
+            "grails-app/i18n/**",
+            "web-app/**"
+    ]
 	
     def observe = [ "services" ]
     def watchedResources = "file:./grails-app/actionHandlers/**/*ActionHandler.groovy"
