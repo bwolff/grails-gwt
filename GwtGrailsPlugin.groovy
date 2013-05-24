@@ -19,8 +19,8 @@ import org.codehaus.groovy.grails.plugins.gwt.DefaultGwtServiceInterfaceGenerato
 import org.codehaus.groovy.grails.web.plugins.support.WebMetaUtils
 
 class GwtGrailsPlugin {
-    def version = "0.8"
-    def grailsVersion = "2.0 > *"
+    def version = "0.8-ais-SNAPSHOT"
+    def grailsVersion = "2.2 > *"
     def title = "The Google Web Toolkit for Grails."
     def description = """\
 Incorporates GWT into Grails. In particular, GWT host pages can be
